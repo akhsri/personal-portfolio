@@ -1,11 +1,135 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 20% 30% 20% 20%; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: black;
+  color: #eaeaea;
+  font-size: 3rem;
+  
+  position: relative;
 }
+
+.homepageheading{
+  font-size: 70px;
+  font-weight: bold;
+  max-height: 100vh;
+  animation-name: landinganimation;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  max-width: fit-content;
+}
+
+.heading{
+  font-size: 83px;
+  animation-name: aboutanimation;
+  animation-duration: .9s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.headingcontact{
+  font-size: 83px;
+  animation-name: contactanimation;
+  animation-duration: .9s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+}
+
+.hoverlink{
+  transition: 2s;
+}
+
+.hoverlink span a{
+  text-decoration: none;
+  color: white;
+}
+
+.hoverlink span{
+  display: none;
+  transition: 2s;
+}
+
+.hoverlink:hover span{
+  display: inline;
+  text-decoration: none;
+  color: white;
+  margin-left: 10%
+}
+.hoverlink:hover div{
+  display: none;
+}
+
+#headingcontact{
+  font-size: 83px;
+  
+}
+
+@keyframes landinganimation{
+  0%{margin-top: 300%;}
+  100%{margin-top:0px;}
+}
+
+
+@keyframes aboutanimation{
+  0%{margin-left: -300%;}
+  100%{margin-left:0px;}
+}
+
+@keyframes contactanimation{
+  0%{
+    margin-left: 300%;
+  }
+  100%{margin-left:0px;}
+}
+
+.subheading{
+  font-size: 40px;
+  margin-bottom: 10%;
+  transition: 0.3s;
+}
+
+.subheading:hover{
+  margin-left: 10%;
+}
+
+.paragraph{
+  font-size: 24px;
+}
+
+.links{
+  font-family: "Medium";
+  font-size: 24px;
+}
+
+.contactlinks{
+  transition: 0.4s;
+  margin: 3vh 0;
+  font-weight: 550;
+  transition-timing-function: ease-out;
+}
+
+.contactlinks:hover {
+  margin-left: 8%;
+}
+
+@media only screen and (max-width: 500px){
+  .heading{
+    font-size: 50px
+  }
+  .container{
+    padding: 60% 10%
+  }
+}
+
+
+
+
 
 .main {
   padding: 5rem 0;
