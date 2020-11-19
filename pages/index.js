@@ -1,30 +1,18 @@
-import React, { useState } from "react"
+import React, { useState, Fragment } from "react"
 import Head from 'next/head'
 import { Tabs, Tab, AppBar } from "@material-ui/core"
-import HomePage from "./HomePage"
-import About from "./About"
-import Contact from "./Contact"
+import Nav from "../components/Nav"
+import Home from "../components/Home"
+import About from "./about"
+import Contact from "./contact"
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
-  const [selectedTab, setSelectedTab] = useState(0);
+export default function HomePage() {
 
-  const handleChange = (event, newValue) => {
-    setSelectedTab(newValue);
-  }
   return (
-    <div >
-      <AppBar style={{ backgroundColor: "black" }}>
-
-        <Tabs value={selectedTab} onChange={handleChange}>
-          <Tab label="Home" />
-          <Tab label="About" />
-          <Tab label="Contact" />
-        </Tabs>
-      </AppBar>
-      {selectedTab === 0 && <HomePage />}
-      {selectedTab === 1 && <About />}
-      {selectedTab === 2 && <Contact />}
-    </div>
+    <Fragment>
+      <Nav />
+      <Home />
+    </Fragment>
   )
 }

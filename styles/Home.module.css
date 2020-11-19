@@ -119,7 +119,7 @@
 }
 
 @media only screen and (max-width: 500px){
-  .heading{
+  .heading, .headingcontact{
     font-size: 50px
   }
   .container{
@@ -127,7 +127,9 @@
   }
 }
 
-
+.active{
+  border-top: 2px solid red;
+}
 
 
 

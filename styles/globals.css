@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.active {
+  border-bottom: 3px solid red;
+}
+
+.navbar{
+  background-color: black;
+}

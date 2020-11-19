@@ -15,10 +15,11 @@ export default function Contact() {
                 style={{
                     minHeight: "50vh"
                 }}
-                id="headingcontact"
+
             >
                 <h2 className={styles.headingcontact}>
-                    Let's make something great!
+                    <div>Let's make</div>
+                    <div>something great!</div>
                 </h2>
             </div>
             <div>
