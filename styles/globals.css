@@ -22,3 +22,43 @@ a {
 .navbar{
   background-color: black;
 }
+
+@media only screen and (max-width: 990px){
+  .heading, .headingcontact{
+    font-size: 50px
+  }
+
+  li a::before{
+    content: ' ';
+    width: 1rem;
+    border-top: 2px solid;
+    position: absolute;
+    border-bottom: none;
+    height: 2px;
+    margin-top: 3%;
+    margin-left: -10%;
+    color: grey;
+  }
+
+  li a.active::before{
+    content: ' ';
+    width: 1rem;
+    border-top: 2px solid red;
+    position: absolute;
+    border-bottom: none;
+    height: 2px;
+    margin-top: 3%;
+    margin-left: -10%;
+  }
+ #navbarSupportedContent a{
+   margin-left: 25%;
+ }
+  a.active{
+    border-bottom: none;
+    margin-left: 25%;
+  }
+
+  .container{
+    padding: 60% 10%
+  }
+}
