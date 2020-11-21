@@ -150,6 +150,22 @@
   margin-left: 8%;
 }
 
+.tapindicaton{
+  display: none;
+  animation: tap .5s infinite alternate;;
+  animation-duration: infinite;
+  color: white;
+}
+
+@keyframes tap{
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-8px);
+  }
+} 
+
 @media only screen and (max-width: 500px){
   .heading, .headingcontact{
     font-size: 50px
@@ -171,7 +187,19 @@
   .container{
     padding: 60% 10%
   }
+
+  .tapindicaton{
+    display: inline;
+    text-align: center;
+    font-size: 3.6vmin;
+    padding: 30%;
+    position: fixed;
+    z-index: 999;
+    top: 75%;
+  }
+
 }
+
 
 
 
