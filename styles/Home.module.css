@@ -14,11 +14,33 @@
   font-size: 70px;
   font-weight: bold;
   max-height: 100vh;
+  max-width: fit-content;
+}
+
+#homehead1{
   animation-name: landinganimation;
   animation-duration: .5s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  max-width: fit-content;
+  opacity: 0;
+}
+
+#homehead2{
+  animation-name: landinganimation;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0;
+}
+
+#homehead3{
+  animation-name: landinganimation;
+  animation-delay: 1.5s;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .heading{
@@ -47,7 +69,11 @@
 
 .hoverlink span a{
   text-decoration: none;
-  color: white;
+  color: red;
+}
+
+#homehead1 span a{
+  color: white !important;
 }
 
 .hoverlink span{
@@ -71,8 +97,14 @@
 }
 
 @keyframes landinganimation{
-  0%{margin-top: 300%;}
-  100%{margin-top:0px;}
+  0%{
+    transform: translateY(30vh);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 
