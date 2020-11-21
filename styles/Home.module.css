@@ -198,6 +198,14 @@
     top: 75%;
   }
 
+  .tapchange span{
+    display: block;
+  }
+
+  .tapchange div h1 div div{
+    display: none;
+  }
+
 }
 
 

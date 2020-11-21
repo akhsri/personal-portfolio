@@ -1,11 +1,17 @@
 import styles from '../styles/Home.module.css'
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 
 export default function Home() {
+    const [className, setClassName] = useState('');
 
+    const handleClick = () => {
+        className === '' ? setClassName('tapchange') : setClassName('')
+    }
     return (
         <Fragment>
-            <div className={`${styles.container} container-fluid`}>
+            <div className={`${styles.container} container-fluid ${className == 'tapchange' ? styles.tapchange : ''}`}
+                onClick={() => handleClick()}
+            >
                 <div>
                     <h1 className={styles.homepageheading}>
                         <div className={styles.hoverlink} id={styles.homehead1}>
