@@ -20,6 +20,11 @@ export default function Nav() {
                         </ActiveLink>
                     </li>
                     <li className="nav-item mx-2 px-2">
+                        <ActiveLink activeClassName="active" href="/work">
+                            <a className="nav-link">Work</a>
+                        </ActiveLink>
+                    </li>
+                    <li className="nav-item mx-2 px-2">
                         <ActiveLink activeClassName="active" href="/contact">
                             <a className="nav-link">Contact</a>
                         </ActiveLink>
