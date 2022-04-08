@@ -2,11 +2,15 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import { Fragment } from "react";
 import ProgressBar from "../../components/ProgressBar";
+import Logo from "../../components/Logo";
 
 const CmtPage = () => {
   return (
     <Fragment>
       <ProgressBar />
+      <div>
+        <Logo url={"/work"} />
+      </div>
       <div className={`${styles.companypagecontainer} container-fluid`}>
         <div
           className={`${styles.companypageheading} ${styles.centerheading} `}

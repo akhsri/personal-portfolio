@@ -153,6 +153,56 @@
   display: none;
 }
 
+.logo {
+  float: right;
+  position: absolute;
+}
+
+.logoInner{
+  position: fixed;
+  top: 10%;
+  z-index: 999;
+  right: 13%;
+  font-weight: 700;
+}
+
+/* logo hover */
+
+.logohoverlink {
+  transition: 4s;
+  transition: 0.4s;
+  transition-timing-function: ease-out;
+}
+
+.logohoverlink:hover {
+  margin-left: 30%;
+}
+
+.logohoverlink span a {
+  text-decoration: none;
+  color: black;
+}
+
+.logohoverlink span {
+  display: none;
+  transition: 2s;
+}
+
+.logohoverlink:hover span {
+  
+  display: inline;
+  text-decoration: none;
+  color: white;
+  transition: 4s;
+  transition-timing-function: ease-out;
+  transition: all 2s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+.logohoverlink:hover div {
+  display: none;
+}
+
+/* end */
+
 #headingcontact {
   font-size: 83px;
 }
@@ -209,9 +259,9 @@
 
 .contactlinks {
   transition: 0.4s;
+  transition-timing-function: ease-out;
   margin: 3vh 0;
   font-weight: 550;
-  transition-timing-function: ease-out;
 }
 
 .contactlinks:hover {
@@ -387,10 +437,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
 }
 
 @media (max-width: 600px) {
