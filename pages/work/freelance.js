@@ -1,7 +1,5 @@
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
-import NextNProgress from "nextjs-progressbar";
-import { LinearProgress } from "@material-ui/core";
 import { Fragment } from "react";
 import ProgressBar from "../../components/ProgressBar";
 
