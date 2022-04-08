@@ -9,10 +9,10 @@ export default function Home() {
     }
     return (
         <Fragment>
-            <div className={`${styles.container} container-fluid ${className == 'tapchange' ? styles.tapchange : ''}`}
+            <div className={`${styles.homecontainer} container-fluid ${className == 'tapchange' ? styles.tapchange : ''}`}
                 onClick={() => handleClick()}
             >
-                <div>
+                <div style={{"z-index": "1"}}>
                     <h1 className={styles.homepageheading}>
                         <div className={styles.hoverlink} id={styles.homehead1}>
                             <div>Hello.</div>
@@ -29,6 +29,9 @@ export default function Home() {
                     </h1>
                 </div>
                 <div className={styles.tapindicaton}>Tap anywhere</div>
+                <div className={styles.bgPhoto}>
+
+                </div>
             </div>
         </Fragment>
     )

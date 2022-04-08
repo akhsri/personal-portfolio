@@ -9,8 +9,51 @@
   position: relative;
 }
 
+.homecontainer {
+  min-height: 100vh;
+  padding: 10% 10% 20% 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #eaeaea;
+  font-size: 3rem;
+  position: relative;
+}
+
+.bgPhoto{
+  top: 6% !important;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 35%;
+  animation-name: bgPhoto;
+  background-image: url(../public/home-bg-2.jpeg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-animation: bgPhoto 1.2s cubic-bezier(.5, .6, .6, 1);
+  -moz-animation: bgPhoto 1.2s cubic-bezier(.5, .6, .6, 1);
+  animation: bgPhoto 1.2s cubic-bezier(.5, .6, .6, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
+@keyframes bgPhoto {
+  0% {
+    transform: scale(1.2, 1.2);
+    }
+    100% {
+    transform: scale(1, 1);
+    }
+}
+
 .homepageheading {
-  font-size: 70px;
+  font-size: 18vmin;
   font-weight: bold;
   max-height: 100vh;
   max-width: fit-content;
@@ -155,6 +198,8 @@
 
 .paragraph {
   font-size: 24px;
+  font-family: Regular;
+  line-height: 170%;
 }
 
 .links {
@@ -211,6 +256,15 @@
 
   .container {
     padding: 60% 10%;
+    width: fit-content;
+  }
+
+  .homecontainer{
+    padding: 60% 10%;
+  }
+
+  .bgPhoto{
+    left: -7%;
   }
 
   .tapindicaton {
