@@ -20,7 +20,7 @@
   position: relative;
 }
 
-.bgPhoto{
+.bgPhoto {
   top: 6% !important;
   z-index: 0;
   position: fixed;
@@ -35,9 +35,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-animation: bgPhoto 1.2s cubic-bezier(.5, .6, .6, 1);
-  -moz-animation: bgPhoto 1.2s cubic-bezier(.5, .6, .6, 1);
-  animation: bgPhoto 1.2s cubic-bezier(.5, .6, .6, 1);
+  -webkit-animation: bgPhoto 1.2s cubic-bezier(0.5, 0.6, 0.6, 1);
+  -moz-animation: bgPhoto 1.2s cubic-bezier(0.5, 0.6, 0.6, 1);
+  animation: bgPhoto 1.2s cubic-bezier(0.5, 0.6, 0.6, 1);
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
@@ -46,10 +46,10 @@
 @keyframes bgPhoto {
   0% {
     transform: scale(1.2, 1.2);
-    }
-    100% {
+  }
+  100% {
     transform: scale(1, 1);
-    }
+  }
 }
 
 .homepageheading {
@@ -101,7 +101,7 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -119,10 +119,10 @@
   transition-timing-function: ease-out;
 }
 
-.worklink:hover div{
+.worklink:hover div {
   transition: 0.4s;
   transition-timing-function: ease-out;
-  margin-left: 4%;
+  margin-left: 5%;
 }
 
 .hoverlink {
@@ -158,7 +158,7 @@
   position: absolute;
 }
 
-.logoInner{
+.logoInner {
   position: fixed;
   top: 10%;
   z-index: 999;
@@ -189,7 +189,6 @@
 }
 
 .logohoverlink:hover span {
-  
   display: inline;
   text-decoration: none;
   color: white;
@@ -243,7 +242,7 @@
 }
 
 .subheading:hover {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .paragraph {
@@ -265,7 +264,7 @@
 }
 
 .contactlinks:hover {
-  margin-left: 8%;
+  margin-left: 5%;
   text-decoration: none;
 }
 
@@ -309,11 +308,16 @@
     width: fit-content;
   }
 
-  .homecontainer{
+  .centerheading {
+    padding: 50% 29% 50% 0 !important;
+    font-size: 3rem !important;
+  }
+
+  .homecontainer {
     padding: 60% 10%;
   }
 
-  .bgPhoto{
+  .bgPhoto {
     left: -7%;
   }
 
@@ -483,15 +487,15 @@
   background-color: white;
 }
 
-.projectcontainer{
+.projectcontainer {
   padding-left: 8%;
   padding-right: 18%;
 }
 
-.projecttext{
-    line-height: 170%;
-    font-family: 'Regular';
-    font-size: 18px;
-    margin-bottom: 3vh;
-    color: #000000;
+.projecttext {
+  line-height: 170%;
+  font-family: "Regular";
+  font-size: 18px;
+  margin-bottom: 3vh;
+  color: #000000;
 }
