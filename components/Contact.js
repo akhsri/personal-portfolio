@@ -68,6 +68,7 @@ export default function Contact() {
               <span>
                 <a
                   href="https://www.instagram.com/aakaaashhhh_/"
+                  target="_blank"
                   className="link"
                   style={{
                     textDecoration: "none",
@@ -83,6 +84,7 @@ export default function Contact() {
               <FontAwesomeIcon icon={faLinkedin} size="1x" />
               <a
                 href="https://www.linkedin.com/in/aakash-srivastav-958a5716a/"
+                target="_blank"
                 className="link"
                 style={{
                   textDecoration: "none",
@@ -91,6 +93,21 @@ export default function Contact() {
                 }}
               >
                 Linkedin
+              </a>
+            </span>
+            <span style={{ display: "block" }} className={styles.contactlinks}>
+              <FontAwesomeIcon icon={faGithub} size="1x" />
+              <a
+                href="https://github.com/akhsri"
+                target="_blank"
+                className="link"
+                style={{
+                  textDecoration: "none",
+                  color: "red",
+                  padding: "0 20% 0 2%",
+                }}
+              >
+                GitHub
               </a>
             </span>
           </div>
