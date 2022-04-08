@@ -11,7 +11,7 @@
 
 .homecontainer {
   min-height: 100vh;
-  padding: 10% 10% 20% 15%;
+  padding: 10% 10% 8% 15%;
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -439,6 +439,7 @@
 
 .projectcontainer{
   padding-left: 8%;
+  padding-right: 18%;
 }
 
 .projecttext{
