@@ -101,7 +101,7 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
 }
 
@@ -109,7 +109,9 @@
   font-size: 100px !important;
   font-weight: bold;
   max-height: 100vh;
+  
 }
+
 
 .workpagesubhead {
   color: red;

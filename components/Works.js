@@ -37,7 +37,7 @@ export default function Works() {
               <div style={{ cursor: "pointer", padding: "0 0 8% 2%" }}>
                 <h1 className={`${styles.workpageheading}`}>Synergy Quantum</h1>
                 <p className={`${styles.workpagesubhead} ${styles.paragraph}`}>
-                  April 2020 - December 2020, Part-Time
+                  April 2021 - December 2021, Part-Time
                 </p>
               </div>
             </Link>

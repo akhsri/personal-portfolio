@@ -20,7 +20,7 @@ export default function Home() {
                         </div>
                         <div style={{ color: "red" }} className={styles.hoverlink} id={styles.homehead2}>
                             <div>I am</div>
-                            <span><a href="work">Work</a></span>
+                            <span><a href="/work">Work</a></span>
                         </div>
                         <div style={{ color: "red" }} className={styles.hoverlink} id={styles.homehead3}>
                             <div>Aakash</div>
