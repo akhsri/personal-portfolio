@@ -24,18 +24,14 @@ export default function Contact() {
         <h4 className={styles.subheading}>Contact</h4>
         <span className={styles.paragraph}>
           <p>
-            I'm seeking out opportunities to collaborate with companies /
-            agencies / individuals, not just work for them. I want to bring my
-            collective experience to the table where we can work together to
-            solve real problems in a way that optimizes all of our respective
-            experience and knowledge.
+            I'm seeking out opportunities to collaborate with companies or
+            individuals. I have experience working with startups and I want to
+            bring my collective experience to the table where we can work
+            together to solve real problems in a way that optimizes all of our
+            respective experience and knowledge. Let's chat about how we can work
+            together.
           </p>
-          <p>
-            I want to favour open-minded collaborators where egos are out of the
-            equation. If that sounds about right, then lets for sure chat about
-            how we can work together.
-          </p>
-          <p>Feel free to reach me out through any of the platforms below:</p>
+          <p>Find me on any of the platforms below:</p>
           <div className={styles.links}>
             <span className={styles.contactlinks}>
               <span>
@@ -57,7 +53,7 @@ export default function Contact() {
                 Gmail
               </a>
             </span>
-            <span style={{ display: "block" }} className={styles.contactlinks}>
+            {/* <span style={{ display: "block" }} className={styles.contactlinks}>
               <span>
                 <FontAwesomeIcon
                   icon={faInstagram}
@@ -79,8 +75,8 @@ export default function Contact() {
                   Instagram
                 </a>
               </span>
-            </span>
-            <span className={styles.contactlinks}>
+            </span> */}
+            <span style={{ display: "block" }} className={styles.contactlinks}>
               <FontAwesomeIcon icon={faLinkedin} size="1x" />
               <a
                 href="https://www.linkedin.com/in/aakash-srivastav-958a5716a/"
