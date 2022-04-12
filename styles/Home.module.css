@@ -88,8 +88,8 @@
 .heading {
   font-size: 83px;
   animation-name: aboutanimation;
-  animation-duration: 0.9s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   position: relative;
 }
@@ -97,7 +97,7 @@
 .headingcontact {
   font-size: 83px;
   animation-name: contactanimation;
-  animation-duration: 0.9s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   position: relative;
@@ -125,6 +125,14 @@
   transition: 0.4s;
   transition-timing-function: ease-out;
   margin-left: 5%;
+}
+
+.worklink > div{
+  animation-name: workanimation;
+  animation-duration: .6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .hoverlink {
@@ -219,21 +227,71 @@
   }
 }
 
+
 @keyframes aboutanimation {
   0% {
-    margin-left: -300%;
+    transform: translateY(30vh);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
   }
   100% {
-    margin-left: 0px;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes aboutanimation {
+  0% {
+    transform: translateY(30vh);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
 @keyframes contactanimation {
   0% {
-    margin-left: 300%;
+    transform: translateY(30vh);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
   }
   100% {
-    margin-left: 0px;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes contactanimation {
+  0% {
+    transform: translateY(30vh);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes workanimation {
+  0% {
+    transform: translateY(30vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
