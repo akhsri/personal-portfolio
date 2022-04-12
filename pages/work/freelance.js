@@ -61,7 +61,7 @@ const FreelancePage = () => {
                 insights of the shifts.
               </p>
               <a
-                href="https://sweet2th.app/"
+                href="https://bdg-master-dev.herokuapp.com/"
                 target="_blank"
                 className={`link ${styles.contactlinks}`}
                 style={{
