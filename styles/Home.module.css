@@ -61,7 +61,7 @@
 
 #homehead1 {
   animation-name: landinganimation;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -69,17 +69,17 @@
 
 #homehead2 {
   animation-name: landinganimation;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.4s;
   opacity: 0;
 }
 
 #homehead3 {
   animation-name: landinganimation;
-  animation-delay: 1.5s;
-  animation-duration: 0.5s;
+  animation-delay: .8s;
+  animation-duration: 0.4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -210,7 +210,7 @@
 
 @keyframes landinganimation {
   0% {
-    transform: translateY(30vh);
+    transform: translateY(8vh);
     opacity: 0;
   }
   100% {
