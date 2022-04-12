@@ -33,7 +33,7 @@ export default function About() {
                   <ul style={{ paddingLeft: "10%" }}>
                     <li>JavaScript</li>
                     <li>TypeScript</li>
-                    <li>React</li>
+                    <li>React.js</li>
                     <li>Node.js</li>
                   </ul>
                 </div>
