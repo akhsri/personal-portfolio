@@ -47,6 +47,19 @@ export default function About() {
                 </div>
               </div>
             </p>
+            <span className={styles.contactlinks}>
+              <a
+                href="https://drive.google.com/file/d/1TU0Zt6_8VZmoYUpiNKguPQBPYRELxTOg/view?usp=sharing"
+                target="_blank"
+                className="link"
+                style={{
+                  textDecoration: "none",
+                  color: "red",
+                }}
+              >
+                My Resume
+              </a>
+            </span>
           </span>
         </div>
       </div>

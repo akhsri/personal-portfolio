@@ -12,7 +12,7 @@ export default function Home() {
             <div className={`${styles.homecontainer} container-fluid ${className == 'tapchange' ? styles.tapchange : ''}`}
                 onClick={() => handleClick()}
             >
-                <div style={{"z-index": "1"}}>
+                <div style={{zIndex: "1"}}>
                     <h1 className={styles.homepageheading}>
                         <div className={styles.hoverlink} id={styles.homehead1}>
                             <div>Hello.</div>
