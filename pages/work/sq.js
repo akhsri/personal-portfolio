@@ -51,9 +51,6 @@ const SQPage = () => {
             Application. Developed the application from scratch and worked
             closely with other team members on implementation of the features.
           </p>
-          <p className={`${styles.projecttext}`}>
-            Developed UI for Quartz Web Application using React.js.
-          </p>
         </div>
         <div className={`${styles.projectcontainer}`}>
           <div className={`${styles.projectheading}`}>Quartz</div>
