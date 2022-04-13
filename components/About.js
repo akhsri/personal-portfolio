@@ -20,7 +20,7 @@ export default function About() {
           <h4 className={styles.subheading}>About</h4>
           <span className={styles.paragraph}>
             <p>
-              Hi, I'm Aakash. I am a full stack stack developer. I enjoy
+              Hi, I'm Aakash. I am a full stack developer. I enjoy
               collaborating within and across teams. I write clean, maintainable
               code and build scalable products. I prefer to keep learning,
               continue challenging myself, and do interseting things that
