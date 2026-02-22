@@ -23,7 +23,7 @@ const FreelancePage = () => {
               fontWeight: "300",
             }}
           >
-            Selected freelance projects
+            2021 - 2022, Selected freelance projects
           </p>
         </div>
         <div style={{ marginBottom: "20%" }}>

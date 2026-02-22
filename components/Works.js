@@ -37,7 +37,7 @@ export default function Works() {
               <div style={{ cursor: "pointer", padding: "0 0 8% 2%" }}>
                 <h1 className={`${styles.workpageheading}`}>Freelance</h1>
                 <p className={`${styles.workpagesubhead} ${styles.paragraph}`}>
-                  Selected freelance projects
+                  2021 - 2022, Selected freelance projects
                 </p>
               </div>
             </Link>
