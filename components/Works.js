@@ -10,6 +10,23 @@ export default function Works() {
         <div>
           <span className={`${styles.worklink}`}>
             <Link
+              href="/work/redbus"
+              className={`link ${styles.contactlinks}`}
+              style={{
+                textDecoration: "none",
+                color: "white",
+              }}
+            >
+              <div style={{ cursor: "pointer", padding: "0 0 8% 2%" }}>
+                <h1 className={`${styles.workpageheading}`}>redBus (MakeMyTrip)</h1>
+                <p className={`${styles.workpagesubhead} ${styles.paragraph}`}>
+                  Sep 2022 – Present, Senior Software Engineer
+                </p>
+              </div>
+            </Link>
+          </span>
+          <span className={`${styles.worklink}`}>
+            <Link
               href="/work/freelance"
               className={`link ${styles.contactlinks}`}
               style={{
